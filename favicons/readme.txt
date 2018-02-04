@@ -1,1 +1,0 @@
-put favicons here.
