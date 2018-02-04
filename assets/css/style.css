@@ -8,10 +8,13 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #182231;
   font: 400 12px/1.8 "Open Sans", sans-serif;
-  color: #000000;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
+}
+.container {
+  width:100%;
 }
 
 img {
@@ -72,6 +75,7 @@ a,
 .form-control:focus,
 .navbar-custom .dropdown-menu {
   box-shadow: none;
+  width:25%;
 }
 
 /* Reset border-radius */
@@ -105,7 +109,7 @@ a,
 }
 
 .et-icons .box1 {
-  border: 1px solid #F9A12C;
+  border: 1px solid #cecece;
   display: block;
   width: 25%;
   float: left;
@@ -116,7 +120,7 @@ a,
 
 .et-icons .box1 > span {
   display: inline-block;
-  border-right: 1px solid #F9A12C;
+  border-right: 1px solid #cecece;
   min-width: 60px;
   min-height: 60px;
   text-align: center;
@@ -156,7 +160,7 @@ a,
 
 .main {
   position: relative;
-  background-color: #fff;
+  background-color: #182231;
   z-index: 1;
 }
 
@@ -289,7 +293,7 @@ a,
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
-  background: linear-gradient(to bottom, rgba(40, 115, 113, 0.57) 25%, rgba(115, 54, 31, 0.67) 75%);
+  background: linear-gradient(to bottom, rgba(43,126,144, 0.67) 25%, rgba(17, 34, 49, 0.57) 75%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-8 */
@@ -642,8 +646,8 @@ a,
 .alert i {
   margin-right: 5px;
 }
-.title_ga {
-  width:250px;
+.title_bac{
+  width:500px;
   transform: translate(-50%,-50%);
   position:absolute;
   top: 50%;
@@ -651,7 +655,6 @@ a,
   resize: both;
   overflow: auto;
 }
-
 /*--------------------------------------------------------------
 	Buttons
 --------------------------------------------------------------*/
@@ -900,11 +903,13 @@ blockquote {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size:24px;
 }
 
 .font-serif {
-  font-family: Volkhov, "Times New Roman", sans-serif;
-  font-style: italic;
+  font-family: "Garamond", sans-serif;
+  font-style: none;
+  font-size: 12px;
 }
 
 .large-text {
@@ -921,17 +926,28 @@ blockquote {
   text-align: center;
   font-weight: 400;
   font-size: 30px;
-  color: #e6af4b;
+  color: #CEDDE2;
   margin: 0 0 70px;
 }
 
 .module-subtitle {
   text-align: center;
   font-size: 16px;
-  color: #fff;
+  color: #9CC6B6;
   margin-bottom: 70px;
 }
+.module-subtitle.font-alt{
+    margin-bottom: 10px;
 
+}
+p.font-serif{
+  font-size:16px;
+  text-transform:none;
+}
+p.font-serif.team{
+  font-size:12px;
+  text-transform:none;
+}
 .module-icon {
   text-align: center;
   font-size: 32px;
@@ -970,7 +986,7 @@ blockquote {
 
 /* Landing Page */
 .landing-reason .module-title {
-  color: #e6af4b;
+  color: #cecece;
 }
 
 .landing-reason .module-title + .module-subtitle {
@@ -984,7 +1000,7 @@ blockquote {
 }
 
 .free-trial .color-golden {
-  color: #e6af4b;
+  color: #cecece;
 }
 
 /*  Special Portfolio Page  */
@@ -1574,7 +1590,7 @@ Google map
   letter-spacing: 2px;
   font-weight: 400;
   font-size: 14px;
-  color: #e6af4b;
+  color: #cecece;
   margin: 16px 0 15px;
 }
 
@@ -1678,13 +1694,13 @@ Google map
 }
 
 .team-name {
-  font-size: 14px;
-  color: #e6af4b;
+  font-size: 18px;
+  color: #cedde2;
 }
 
 .team-role {
   font-size: 11px;
-  color: #aaa;
+  color: #9cc6b6;
 }
 
 .team-item:hover .team-image:after {
@@ -2175,13 +2191,13 @@ Google map
 .post-title {
   line-height: 1.4;
   font-size: 22px;
-  color: #e6af4b;
+  color: #cecece;
   margin: 0;
 }
 .post-title a{
   line-height: 1.4;
   font-size: 22px;
-  color: #e6af4b;
+  color: #cecece;
   margin: 0;
 }
 .post-header {
@@ -2193,7 +2209,7 @@ Google map
   color: #aaa;
 }
 .post-meta a{
-  color:#e6af4b;
+  color:#cecece;
 }
 .post-meta a:hover{
   color:#aaa;
@@ -2409,7 +2425,7 @@ Google map
 
 .widget .icon-list li a:before {
   content: "\00BB";
-  color: #e6af4b;
+  color: #cecece;
   padding-right: 5px;
 }
 
